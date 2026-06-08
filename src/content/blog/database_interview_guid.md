@@ -2,7 +2,7 @@
 title: '数据库面经'
 description: '数据库快速面试问题总结'
 pubDate: 'Jun 08 2026'
-HeroImage: '../../assets/Pasted image 20260603153452.png'
+heroImage: '../../assets/Pasted image 20260603153452.png'
 ---
 
 [MySQL常考SQL语句分类整理：查询、聚合、连接、子查询、增删改与事务](https://notes.kamacoder.com/base/sql.html#%E4%B8%80%E3%80%81%E6%95%B0%E6%8D%AE%E6%9F%A5%E8%AF%A2-select)
@@ -15,7 +15,7 @@ HeroImage: '../../assets/Pasted image 20260603153452.png'
 3. 缓存不命中，分析器检查slq语法，关键字词法分析；
 4. 优化器：进行索引选择，确定多个表的连接顺序, 生成执行计划；
 5. 执行器：调用存储引擎接口，拿数据返回给客户端。
-![[../../assets/Pasted image 20260603153452.png]]
+![MySQL Query Execution](../../assets/Pasted%20image%2020260603153452.png)
 ---
 ## 索引
 ### 1. 索引有哪些种类？
